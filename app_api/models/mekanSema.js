@@ -28,5 +28,5 @@ var mekanSema = new mongoose.Schema({
     yorumlar:[yorumSema]
 },
     {usePushEach:true}
-);
+);///////////
 mongoose.model('mekan',mekanSema,'mekanlar'); //modeladı,kullanılacak şema,koleksiyon adı
