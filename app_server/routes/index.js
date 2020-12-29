@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
-var ctrlMekanlar= require('../controllers/mekanlar');
-var ctrlDigerleri= require('../controllers/digerleri');
+var ctrlMekanlar = require('../controllers/mekanlar');
+var ctrlDigerleri = require('../controllers/digerleri');
 
-/*GET home page. //require -> import etme*/
 router.get('/',ctrlMekanlar.anaSayfa);
 router.get('/mekan',ctrlMekanlar.mekanBilgisi);
 router.get('/mekan/yorum/yeni',ctrlMekanlar.yorumEkle);

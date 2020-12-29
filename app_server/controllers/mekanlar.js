@@ -10,7 +10,7 @@ const anaSayfa=function(req,res,next){
          'aciklama':'Isparta Civarındaki Mekanları Keşfedin!!'
      },
      'mekanlar':[
-     {
+      {
          'ad':'Starbucks',
          'adres':'Centrum Garden AVM',
          'puan':3,
