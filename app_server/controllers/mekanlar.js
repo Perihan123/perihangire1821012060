@@ -259,7 +259,7 @@ const yorumumuEkle=function(req,res){
         yorumYapan:req.body.name,
         puan:parseInt(req.body.rating ,10),
         yorumMetni:req.body.review
-    };
+    };  
     istekSecenekleri={
         url:apiSecenekleri.sunucu+apiSecenekleri.apiYolu+mekanid+'/yorumlar',
         method:"POST",
