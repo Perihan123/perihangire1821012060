@@ -104,9 +104,10 @@ const mekanBilgisi=function(req,res,next){
 const yorumEkle=function(req,res,next){
  res.render('yorum-ekle',{title:'Yorum Ekle'});
 }*/
+var express = require("express");
 var request = require('postman-request');
 var apiSecenekleri = {
-    sunucu: "http://localhost:3000",
+    sunucu: "http://perihangire1821012060.herokuapp.com",
     apiYolu: '/api/mekanlar/'
 }
 
